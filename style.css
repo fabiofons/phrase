@@ -1,0 +1,25 @@
+body {
+  background-image: linear-gradient(to right, DarkSeaGreen, DeepSkyBlue);
+  font-family: 'Bree Serif', serif;
+}
+
+.phrase {
+  /*position*/
+  margin: 40vh auto 0 auto;
+  
+  /*box model*/
+  width:500px;  
+  padding: 20px;
+  box-shadow: 5px 5px 20px green;
+  
+  /* Typography */
+  font-size: 24px;
+  line-height: 1.5;
+  color: orangered;
+  text-shadow: 1px 1px 2px orange;
+  
+  /*visual*/  
+  border-radius: 10px;
+  background-color: white; 
+  transform: rotate(-10deg);  
+}
